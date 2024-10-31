@@ -1,0 +1,9 @@
+pickle5
+operators
+typing
+pandas
+ipython
+torch
+matplotlib
+torchaudio
+scikit-learn
