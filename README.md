@@ -9,6 +9,10 @@
 **2. 음성 오류 구간 라벨링:**
 > 오류가 발생된 음성의 구간 라벨링을 통해, 데이터 개선을 수행할 수 있습니다.
 
+## 🗃️Dataset
+* 오류 구간이 라벨링된 음성 데이터셋: https://www.aihub.or.kr/aihubdata/data/view.do?currMenu=115&topMenu=100&aihubDataSe=realm&dataSetSn=123
+* 아동 음성 데이터셋: https://www.aihub.or.kr/aihubdata/data/view.do?currMenu=115&topMenu=100&aihubDataSe=realm&dataSetSn=540
+* 외국인 음성 데이터셋: https://www.aihub.or.kr/aihubdata/data/view.do?currMenu=115&topMenu=100&aihubDataSe=realm&dataSetSn=505
 
 ## 🌲Working Enviornment
 * pickle5
