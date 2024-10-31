@@ -1,0 +1,11 @@
+# 발음 오류 탐지 모델의 학습과정까지 필요한 code
+- 00 Data PreProcessing
+  - model의 학습에 사용되는 데이터의 양이 커서 발생되는 메모리 문제를 해결하기 위해 512개씩 데이터를 나는 처리 과정을 위한 code
+- 01 Dataloader Generator
+  - 메모리 문제를 해결하기 위해, model의 학습에 사용되는 Dataloader을 미리 생성하는 처리과정을 위한 code
+- 02 pronunciation errors detection model(mfcc)
+  - mfcc 음성 데이터만을 활용하여 발음 오류 탐지를 학습하는 모델
+- 03 pronunciation errors detection model(mfcc, text)
+  - mfcc 음성 데이터와 text data를 기반으로 발음 오류 탐지를 학습하는 모델
+- 04 model Test
+  - 각 모델의 오류 클래스에 대한 threshold를 구하기 위해 test하는 모델
